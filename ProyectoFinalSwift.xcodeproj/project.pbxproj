@@ -11,6 +11,8 @@
 		124A7B6820C2F0DB00B37B9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A7B6720C2F0DB00B37B9C /* ViewController.swift */; };
 		124A7B6A20C2F0DB00B37B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124A7B6920C2F0DB00B37B9C /* Assets.xcassets */; };
 		124A7B6D20C2F0DB00B37B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124A7B6B20C2F0DB00B37B9C /* Main.storyboard */; };
+		124A7B7720C2F5E400B37B9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124A7B7620C2F5E400B37B9C /* AVFoundation.framework */; };
+		124A7B7920C2F5EB00B37B9C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124A7B7820C2F5EB00B37B9C /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		124A7B6C20C2F0DB00B37B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		124A7B6E20C2F0DB00B37B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		124A7B6F20C2F0DB00B37B9C /* ProyectoFinalSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProyectoFinalSwift.entitlements; sourceTree = "<group>"; };
+		124A7B7620C2F5E400B37B9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		124A7B7820C2F5EB00B37B9C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124A7B7920C2F5EB00B37B9C /* AVKit.framework in Frameworks */,
+				124A7B7720C2F5E400B37B9C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +45,7 @@
 			children = (
 				124A7B6420C2F0DB00B37B9C /* ProyectoFinalSwift */,
 				124A7B6320C2F0DB00B37B9C /* Products */,
+				124A7B7520C2F5E400B37B9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +68,15 @@
 				124A7B6F20C2F0DB00B37B9C /* ProyectoFinalSwift.entitlements */,
 			);
 			path = ProyectoFinalSwift;
+			sourceTree = "<group>";
+		};
+		124A7B7520C2F5E400B37B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				124A7B7820C2F5EB00B37B9C /* AVKit.framework */,
+				124A7B7620C2F5E400B37B9C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
