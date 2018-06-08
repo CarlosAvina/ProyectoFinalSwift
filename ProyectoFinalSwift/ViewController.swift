@@ -21,7 +21,7 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
         
-        //puto github y shaba
+        //puto github y ramon
     }
 
 
