@@ -20,6 +20,8 @@ class ViewController: NSViewController {
         didSet {
         // Update the view, if already loaded.
         }
+        
+        //puto github y ramon
     }
 
 
